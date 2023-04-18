@@ -13,6 +13,6 @@ app.get('/productos', (req, res) => {
   res.sendFile(__dirname + '/pages/productos.html');
 });
 
-app.listen(3000, () => {
+app.listen(9000, () => {
   console.log('La aplicación está corriendo en http://localhost:3000');
 });
